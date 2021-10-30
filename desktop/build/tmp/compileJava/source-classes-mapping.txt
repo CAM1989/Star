@@ -1,0 +1,2 @@
+gb/ru/desktop/DesktopLauncher.java
+ gb.ru.desktop.DesktopLauncher

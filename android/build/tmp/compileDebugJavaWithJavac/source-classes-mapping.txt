@@ -1,0 +1,10 @@
+gb/ru/R.java
+ gb.ru.R
+ gb.ru.R$color
+ gb.ru.R$drawable
+ gb.ru.R$string
+ gb.ru.R$style
+gb/ru/BuildConfig.java
+ gb.ru.BuildConfig
+gb/ru/AndroidLauncher.java
+ gb.ru.AndroidLauncher
