@@ -10,6 +10,8 @@ import gb.ru.pool.BulletPool;
 
 public class EnemyShip extends Ship {
 
+    private Vector2 speed = new Vector2(0,-0.5f);
+
     public EnemyShip(BulletPool bulletPool, Rect worldBounds, Sound bulletSound) {
         this.bulletPool = bulletPool;
         this.worldBounds = worldBounds;
@@ -23,6 +25,9 @@ public class EnemyShip extends Ship {
     @Override
     public void update(float delta) {
         super.update(delta);
+        if (getTop() >= worldBounds.getTop()) {
+            v.set(speed);
+        }
         if (getBottom() < worldBounds.getBottom()) {
             destroy();
         }
